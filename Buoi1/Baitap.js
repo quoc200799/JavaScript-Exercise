@@ -40,7 +40,7 @@ const translate = (str) => {
           console.log ("Ciao");
           break;
       }
-      
+    return
 }
 translate("vi")
 
@@ -53,5 +53,6 @@ const subString = (str) => {
  }else{
     console.log("Chuoi phai dai hon 15 ky tu!!")
  }
+ return part;
 }
 subString("“xinchaocacbandenvoiTechmaster”")
